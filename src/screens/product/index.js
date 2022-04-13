@@ -29,11 +29,6 @@ const Products = ({navigation, route}) => {
           Add to Bag
         </Text>
       </TouchableOpacity>
-      <TouchableOpacity
-        style={styles.cartButton}
-        onPress={() => navigation.navigate('Cart')}>
-        <Text style={styles.cartButtonText}>Ver carrito</Text>
-      </TouchableOpacity>
     </View>
   );
 };
